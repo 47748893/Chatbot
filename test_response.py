@@ -23,7 +23,7 @@ def generate_response(user_query, max_length=50, num_beams=5, no_repeat_ngram_si
         max_length=max_length,
         num_beams=4,
         no_repeat_ngram_size=3,
-        repetition_penalty=1.2,   # Now this should work after updating!
+        repetition_penalty=1.2,
         early_stopping=True,
         do_sample=True,       
         top_k=50,              
