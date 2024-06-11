@@ -44,7 +44,7 @@ def train_model(processed_data_path, model_save_path):
     training_args = TrainingArguments(
         output_dir='./results',
         overwrite_output_dir=True,
-        num_train_epochs=1,
+        num_train_epochs=10,
         per_device_train_batch_size=8,
         save_steps=10_000,
         save_total_limit=2,
